@@ -1,0 +1,45 @@
+
+
+@media screen and (orientation: portrait){
+	body {
+		background-image : url('./chrono_portrait.jpg');
+	}
+	
+	ul {
+		position:fixed;
+		bottom:30px;
+		left:10px;
+	}
+	
+	li {
+		display:inline;
+	}
+	
+	#time {
+		position:fixed;
+		top:50px;
+		left:80px;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-width:480px) {
+	body {
+		background-image : url('./chrono_landscape.jpg');
+	}
+	
+	ul {
+		position:fixed;
+		top:20px;
+	}
+	
+	li {
+		display:block;
+		padding:20px;
+	}
+	
+	#time {
+		position:fixed;
+		top:50px;
+		right:80px;
+	}
+}
